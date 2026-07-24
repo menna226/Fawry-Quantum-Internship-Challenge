@@ -1,7 +1,7 @@
 package Violations;
 
 public class SeatbeltViolation implements Violation {
-    double fee;
+    private final double fee;
 
     public SeatbeltViolation(double fee) {
         this.fee = fee;

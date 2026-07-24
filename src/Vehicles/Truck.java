@@ -3,8 +3,8 @@ package Vehicles;
 import java.time.LocalDate;
 
 public class Truck extends Vehicle implements ISpeed, ISeatBelt {
-    private double speed;
-    private boolean seatBeltFastened;
+    private final double speed;
+    private final boolean seatBeltFastened;
 
     public Truck(String plateNumber, LocalDate date, double speed,  boolean seatBeltFastened) {
         super(plateNumber, VehicleType.TRUCK, date);

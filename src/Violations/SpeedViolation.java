@@ -1,9 +1,9 @@
 package Violations;
 
 public class SpeedViolation implements Violation {
-    double fee;
-    double speedLimit;
-    double recordedSpeed;
+    private final double fee;
+    private final double speedLimit;
+    private final double recordedSpeed;
 
     public SpeedViolation(double speedLimit, double recordedSpeed ,double fee) {
         this.speedLimit = speedLimit;

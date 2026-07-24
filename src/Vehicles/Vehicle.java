@@ -3,9 +3,9 @@ package Vehicles;
 import java.time.LocalDate;
 
 public abstract class Vehicle {
-    private  String plateNumber;
-    private VehicleType type;
-    private LocalDate date;
+    private  final String plateNumber;
+    private final VehicleType type;
+    private final LocalDate date;
 
     public  Vehicle(String plateNumber, VehicleType type, LocalDate date) {
         this.plateNumber = plateNumber;

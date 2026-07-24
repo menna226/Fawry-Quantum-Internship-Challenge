@@ -1,5 +1,5 @@
 package Vehicles;
 
 public interface ISpeed {
-    public double getSpeed();
+    double getSpeed();
 }
